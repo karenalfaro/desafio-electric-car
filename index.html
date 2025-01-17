@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electric Cars</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <header class="nav">
+      <div class="header">
+        <i class="icon-container fa-solid fa-car fa-lg"></i>
+        <h2>Electric Cars</h2>
+      </div>
+
+      <nav>
+        <i class="icon fa-solid fa-bars fa-2x"></i>
+        <ul id="main-menu">
+          <li><a href="inicio">Inicio</a></li>
+          <li><a href="catalogo">Catalogo</a></li>
+          <li><a href="ofertas">Ofertas</a></li>
+          <li><a href="contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="filters">
+      <h4>Ordenar Por:</h4>
+      <div class="filter-options">
+        <!-- <label for="marca">Marca:</label> -->
+        <select id="marca">
+          <option value="tesla">Marca</option>
+          <option value="nissan">Precio</option>
+          <option value="chevrolet">Color</option>
+        </select>
+
+        <!-- <label for="precio">Precio:</label>
+        <input type="range" id="precio" min="10000" max="100000" /> -->
+      </div>
+    </section>
+
+    <main class="products">
+      <article class="product">
+        <img src="./assets/images/auto-1.jpg" alt="Tesla Model " />
+        <h4>Volkswagen Model ID.4</h4>
+        <p>$20.790.990</p>
+        <button>Ver mas</button>
+      </article>
+      <article class="product">
+        <img src="./assets/images/auto-2.jpg" alt="Tesla Model S" />
+        <h4>Tesla Model S</h4>
+        <p>$30.790.990</p>
+        <button>Ver mas</button>
+      </article>
+      <article class="product">
+        <img src="./assets/images/auto-3.jpg" alt="Tesla Model X" />
+        <h4>Tesla Model X</h4>
+        <p>$79.000.000</p>
+        <button>Ver mas</button>
+      </article>
+      <article class="product">
+        <img src="./assets/images/auto-4.jpg" alt="Audi A6 e-tron" />
+        <h4>Audi A6 e-tron</h4>
+        <p>$55.000.000</p>
+        <button>Ver mas</button>
+      </article>
+      <article class="product">
+        <img src="./assets/images/auto-5.jpg" alt="Renault 5 Turbo 3E" />
+        <h4>Renault 5 Turbo 3E</h4>
+        <p>$79,990</p>
+        <button>Ver mas</button>
+      </article>
+      <article class="product">
+        <img src="./assets/images/auto-6.jpg" alt="Range Rover EV" />
+        <h4>Range Rover EV</h4>
+        <p>$90.000.000</p>
+        <button>Ver mas</button>
+      </article>
+      <article class="product">
+        <img src="./assets/images/auto-7.jpg" alt="BMW iX3 2025" />
+        <h4>BMW iX3 2025</h4>
+        <p>$95.000.000</p>
+        <button>Ver mas</button>
+      </article>
+      <article class="product">
+        <img src="./assets/images/auto-8.jpg" alt="Xiaomi YU7" />
+        <h4>Xiaomi YU7</h4>
+        <p>$49.990.000</p>
+        <button>Ver mas</button>
+      </article>
+    </main>
+
+    <div class="pagination">
+      <ul class="pagination">
+        <li class="disabled">
+          <a href="#">&laquo; Anterior</a>
+        </li>
+
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+
+        <li>
+          <a href="#">Siguiente &raquo;</a>
+        </li>
+      </ul>
+    </div>
+    <footer class="footer">
+      <div class="icon-footer">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+      <p>Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
